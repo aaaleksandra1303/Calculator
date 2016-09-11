@@ -93,9 +93,17 @@
         android:text="result"
         android:textSize="30dp"
         android:id="@+id/result"
-        android:layout_marginTop="69dp"
-        android:layout_below="@+id/plus"
-        android:layout_alignRight="@+id/textView"
-        android:layout_alignEnd="@+id/textView" />
+        android:layout_below="@+id/resultButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="="
+        android:id="@+id/resultButton"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>
